@@ -1,0 +1,254 @@
+body {
+    background: white;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.header {
+    size: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+
+.menu1 {
+    display: flex;
+    font-size: 18px;
+}
+
+.menu1 ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    color: seashell;
+}
+
+.menu1 ul li a {
+    text-decoration: none;
+    border-right: 1px solid white;
+    color: white;
+}
+
+.menu2 {
+    display: flex;
+    font-size: 20px;
+    background-color: darkblue;
+}
+
+.menu2 ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    margin: 25px;
+    padding: 0px;
+    border: 1px solid red;
+    width: 90%;
+}
+
+.menu2 ul li {
+    margin-right: 30px;
+    list-style: none;
+}
+
+.menu2 ul li a {
+    width: 15%;
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 80px 0px 80px;
+    border-right: 1px solid white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 4px;
+    margin-right: 70px;
+}
+
+.logo p {
+    color: whitesmoke;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    border: 5px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.link1 {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.main {
+    background-color: yellowgreen;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.noidung {
+    display: flex 200px;
+}
+
+.block {
+    background-color: white;
+}
+
+.block a {
+    text-decoration: none;
+}
+
+.block1 {
+    float: left;
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    width: 27%;
+    height: 200px;
+}
+
+.block2 {
+    float: left;
+    background-color: blueviolet;
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 27%;
+    height: 200px;
+}
+
+.block3 {
+    float: left;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 27%;
+    height: 200px;
+}
+
+.block4 {
+    float: left;
+    background-color: white;
+    font-size: 20px;
+    color: blue;
+    padding: 20px;
+    width: 27%;
+    height: 200px;
+}
+
+.button-contact1,
+.button-contact2,
+.button-contact3,
+.button-contact4 {
+    margin-right: 4%;
+    color: white;
+}
+
+footer {
+    background-color: rgb(75, 72, 72);
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+}
+
+.full-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.ul li {
+    display: flex;
+    list-style-type: none;
+    color: gray;
+    padding-left: 0px;
+    margin-left: -40px;
+}
+
+.h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+hr {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.add {
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    float: left;
+}
