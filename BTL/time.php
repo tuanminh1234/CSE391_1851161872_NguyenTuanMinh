@@ -8,13 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Trường đại học kinh tế kỹ thuật công nghiệp</title>
 </head>
-
 <body>
-
     <header>
         <div class="wrapper">
             <img src="images/banner-phongdaotao.jpg" width="100%">
-
             <div id="menu">
                 <nav class="navbar navbar-expand-sm navbar-dark bg-primary S">
                     <a class="navbar-brand " href="#"></a>
@@ -31,8 +28,8 @@
                             <li class="nav-item dropdown ">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chương trình đào tạo</a>
                                 <div class="dropdown-menu color" aria-labelledby="dropdownId">
-                                    <a class="dropdown-item" href="dhcq.php" style="color: whitesmoke;">Đại học chính quy</a>
-                                    <a class="dropdown-item" href="cdcq.php" style="color: whitesmoke;">Cao đẳng chính quy</a>
+                                    <a class="dropdown-item" href="http://daotao.uneti.edu.vn/PageContent.aspx?MenuID=376" style="color: whitesmoke;">Đại học chính quy</a>
+                                    <a class="dropdown-item" href="http://daotao.uneti.edu.vn/PageContent.aspx?MenuID=378" style="color: whitesmoke;">Cao đẳng chính quy</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown ">
@@ -49,14 +46,14 @@
                                 <a class="nav-link" href="http://tuyensinh.uneti.edu.vn/">Tuyển sinh</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="tb.php">Thông báo</a>
+                                <a class="nav-link" href="http://daotao.uneti.edu.vn/News.aspx?MenuID=394">Thông báo</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="time.php">Giờ
+                                <a class="nav-link" href="http://daotao.uneti.edu.vn/PageContent.aspx?MenuID=423">Giờ
                                     học</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="hd.php">Hướng
+                                <a class="nav-link" href="http://daotao.uneti.edu.vn/PageContent.aspx?MenuID=436">Hướng
                                     dẫn dành cho sinh viên</a>
                             </li>
                         </ul>
@@ -64,61 +61,52 @@
                 </nav>
             </div>
     </header>
-
     <div class="wrapper container-fluid">
         <div class="row" style="margin-top: 10px; ">
             <div class="col-9" style=" margin-top: 10px; ">
-                <div class="head" style="background-color: #0098DB; color:#0098DB; width: 840px;">
-                    <h3>THÔNG BÁO</h3>
-                    <p>Quy chế của Bộ Giáo Dục và Đào Tạo</p>
+                <div class="head" style="background-color: #0098DB; width: 840px;">
+                    <h3>Bố trí giờ học tại các cơ sở đào tạo </h3>
                 </div>
-                <style>
-                    .col-9 {
-                         border: 1px groove #0098DB;
-                            }
-                </style>
-                <P>Quy chế của Bộ Giáo Dục và Đào Tạo</P>
-               
-                <p><a href="https://daotao.uneti.edu.vn/Resource/Upload/file/QuyChe_QuyDinh/QD43-2007-BGD.pdf">1. Quy chế đào tạo đại học và cao đẳng hệ chính quy theo hệ thống tín chỉ (QĐ 43/2007/QĐ-BGDĐT).</a></p>
-                <p><a href="https://daotao.uneti.edu.vn/Resource/Upload/file/QuyChe_QuyDinh/TT57_SuaDoiQC_43_DT_CD_DH_tinChi.pdf">2. Thông tư số 57 sửa đổi quy chế 43/2007/QĐ-BGDĐT về đào tạo đại học và cao đẳng hệ chính quy theo hệ thống tín chỉ.</a></p>
-                <p><a href="https://daotao.uneti.edu.vn/Resource/Upload/file/QuyChe_QuyDinh/TT55_2012_QuyDinh_DT_LienThong_CD_DH.pdf">3. Quy định đào tạo liên thông trình độ cao đẳng, đại học (TT 55/2012/TT-BGDĐT).</a></p>
-                <p><a href="https://daotao.uneti.edu.vn/Resource/Upload/file/QuyChe_QuyDinh/08-BGD_signed.pdf">4. Sửa đổi, bổ sung một số điều của Quy định đào tạo liên thông trình độ cao đẳng, đại học ban hành kèm theo Thông tư số 55/2012/TT-BGDĐT (TT 08/2015/TT-BGDĐT).</a></p>
-                <p><a href="https://daotao.uneti.edu.vn/Resource/Upload/file/QuyChe_QuyDinh/TT10_2016_QCSinhVienDH.pdf">5. Quy chế công tác sinh viên đối với chương trình đào tạo đại học hệ chính quy. (TT10/2016/TT-BGDĐT).</a></p>
-                <p><a href="https://daotao.uneti.edu.vn/Resource/Upload/file/QuyChe_QuyDinh/TT19_2015QLBang.pdf">6. Quy chế quản lý bằng tốt nghiệp trung học cơ sở, bằng tốt nghiệp trung học phổ thông, văn bằng giáo dục đại học và chứng chỉ của hệ thống giáo dục quốc dân.</a> </p>
-                <p><a href="https://daotao.uneti.edu.vn/Resource/Upload/file/QuyChe_QuyDinh/17_VBHN_BGD%C4%90T_QCDT.pdf">7. Văn bản hợp nhất số 17/VBHN-BGDĐT về Ban hành Quy chế đào tạo đại học, cao đẳng hệ chính quy theo hệ thống tín chỉ</a></p>
+                <div class="vertical-menu present">
+                    <ul style="list-style: none;">
+                        
+                        <li>
+                            <img class="img" src="images/Giohoc2015.gif" alt="" style="width: auto;height:auto" >
+                            <br>
+                            
+                            <hr class="dashed">
+                        </li>
+                        
+                        
+                        
+                        
+                       
+                    </ul>
+                    
+                </div>
             </div>
             <div class="col-3" style="border :1px solid white;">
                 <div class="body">
                     <div style=" background: #0098DB; color: rgb(243, 240, 233); margin-bottom: 10px;">
                         <h3>ĐĂNG NHẬP</h3>
                     </div>
-                    <div class="healdy">
-                        <div style="padding-left: 10px;">
-                            <label>Mã sinh viên:</label>
-                            <input type="text" placeholder="Nhập tên tài khoản" /><br> <br>
-                            <label>Mật khẩu:</label><br>
-                            <input type="password" placeholder="Nhập mật khẩu" />
+                    <form action="register_submit.php" method="POST">
+                        <div class="healdy">
+                            <div style="padding-left: 10px;">
+                                <label>Mã sinh viên:</label>
+                                <input type="text" name="username" placeholder="Nhập tên tài khoản"> <br> <br>
+                                <label>Mật khẩu:</label><br>
+                                <input type="password" placeholder="Nhập mật khẩu" name="password" /><br> <br>
+                                <label>Nhập lại mật khẩu</label><br>
+                                <input type="passsword" placeholder="Nhập lại mật khẩu" name="repassword">
+                            </div>
+                            <div style="padding-left: 10px;">
+                                <br>
+                                <input type="submit" name="submit" value =" Đăng nhập" class =" btn btn-primary">
+                            </div>
                         </div>
-                        <div style="padding-left: 10px;">
-                            <input type="radio" id="male" name="gender" value="male">
-                            <label for="male">Sinh viên đang học</label><br>
-                            <input type="radio" id="female" name="gender" value="female">
-                            <label for="female">Sinh viên tốt nghiệp</label><br>
-                        </div>
-                        <div style="padding-left: 10px;">
-                            <label>Mã bảo vệ:</label>
-                            <input type="text" placeholder="Nhập mã bảo vệ"> <img src="images/MTIvMDgvMjAyMCAyMzozMzo0NQ==.gif" alt="">
-                            <img src="images/Refresh.gif" alt="">
-
-                        </div>
-                        <div style="padding-left: 10px;">
-                            <br>
-                            <button type="Đăng nhập" class="btn btn-warning">Đăng nhập</button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
-
-
                 <div class="body">
                     <div class="sclot" style="background-color: #0098DB; color: rgb(243, 240, 233); font-size: 15px;">
                         <h3>THÔNG BÁO</h3>
@@ -131,13 +119,11 @@
                                     Thông báo v/v tiếp tục thực hiện các biện pháp phò...</a>
                                 <hr class="dashed">
                             </li>
-
                             <li>
                                 <a href="http://daotao.uneti.edu.vn/NewsDetail.aspx?NewsID=800">
                                     <img src="images/arrow-2.png" alt="v/v tiếp tục thực hiện các biện pháp phòng chống dịch Covid-19 từ ngày 23/4/2020 đến ngày 10/5/2020">
                                     Hướng dẫn SV thực hiện nội dung liên quan tới yêu ...</a>
                                 <hr class="dashed">
-
                             <li>
                                 <a href="http://daotao.uneti.edu.vn/NewsDetail.aspx?NewsID=799">
                                     <img src="images/arrow-2.png" alt="Hướng dẫn SV thực hiện nội dung liên quan tới yêu cầu về tài khoản Email">
@@ -152,7 +138,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <div class="body">
                     <div class="sclot" style="background-color: #0098DB; color: rgb(243, 240, 233); font-size: 13px;">
                         <h3>DÀNH CHO PHỤ HUYNH</h3>
@@ -168,7 +153,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <div class="body">
                     <div class="sclot" style="background-color: #0098DB; color: rgb(243, 240, 233);">
                         <h3>LIÊN KẾT</h3>
@@ -189,7 +173,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <div class="body">
                     <div class="scolt" style="background-color: #0098DB; color: rgb(243, 240, 233);">
                         <h3>THỐNG KÊ</h3>
@@ -207,12 +190,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
     <footer>
         <div class="wrapper footerr">
             <p>Copyright © 2013 Trường Đại học Kinh tế Kỹ thuật Công nghiệp - Phòng Đào Tạo</p>
@@ -221,13 +198,8 @@
             <p>Thiết kế bởi EPMT</p>
         </div>
     </footer>
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
-
 </html>

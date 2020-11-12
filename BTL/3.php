@@ -31,8 +31,8 @@
                             <li class="nav-item dropdown ">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chương trình đào tạo</a>
                                 <div class="dropdown-menu color" aria-labelledby="dropdownId">
-                                    <a class="dropdown-item" href="http://daotao.uneti.edu.vn/PageContent.aspx?MenuID=376" style="color: whitesmoke;">Đại học chính quy</a>
-                                    <a class="dropdown-item" href="http://daotao.uneti.edu.vn/PageContent.aspx?MenuID=378" style="color: whitesmoke;">Cao đẳng chính quy</a>
+                                    <a class="dropdown-item" href="dhcq.php" style="color: whitesmoke;">Đại học chính quy</a>
+                                    <a class="dropdown-item" href="cdcq.php" style="color: whitesmoke;">Cao đẳng chính quy</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown ">
@@ -49,14 +49,14 @@
                                 <a class="nav-link" href="http://tuyensinh.uneti.edu.vn/">Tuyển sinh</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://daotao.uneti.edu.vn/News.aspx?MenuID=394">Thông báo</a>
+                                <a class="nav-link" href="tb.php">Thông báo</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://daotao.uneti.edu.vn/PageContent.aspx?MenuID=423">Giờ
+                                <a class="nav-link" href="time.php">Giờ
                                     học</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://daotao.uneti.edu.vn/PageContent.aspx?MenuID=436">Hướng
+                                <a class="nav-link" href="hd.php">Hướng
                                     dẫn dành cho sinh viên</a>
                             </li>
                         </ul>
@@ -71,6 +71,11 @@
                 <div class="head" style="background-color: #0098DB; color: #0098DB; width: 840px;">
                     <h3>THÔNG BÁO</h3>
                 </div>
+                <style>
+                    .col-9 {
+                         border: 1px groove #0098DB;
+                            }
+                </style>
                 <p>Các quy chế quy định khác</p>
                 <p>Luật</p>
                 <pre>
