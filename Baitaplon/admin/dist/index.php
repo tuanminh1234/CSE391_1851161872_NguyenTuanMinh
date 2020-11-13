@@ -103,7 +103,6 @@
                                                 <th>passwork</th>
                                                 <th>level</th>
                                                 <th>status</th>
-                                                <th>Sửa</th>
                                                 <th>Xóa</th>
                                             </tr>
                                         </thead>
@@ -114,6 +113,7 @@
                                                 $sql="SELECT * FROM user";
                                                 $result=mysqli_query($conn,$sql);
                                                 while ($row=mysqli_fetch_assoc($result)){
+                                                    $id = $row['id'];
                                             ?>
                                             <tr>
                                                 <td><?php echo $row['id'] ?></td>
@@ -121,6 +121,7 @@
                                                 <td><?php echo $row['password'] ?></td>
                                                 <td><?php echo $row['level'] ?></td>
                                                 <td><?php echo $row['status'] ?></td>
+                                                <td><a href='delete.php?id=<?php echo $id;?>&key=xoa' onclick='xoa()'>Xóa</a</td>
                                                
                                             </tr>
                                             <?php
