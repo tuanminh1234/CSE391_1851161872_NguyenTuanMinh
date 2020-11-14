@@ -87,26 +87,9 @@
                     </div>
                     <div class="healdy">
                         <div style="padding-left: 10px;">
-                            <label>Mã sinh viên:</label>
-                            <input type="text" placeholder="Nhập tên tài khoản" /><br> <br>
-                            <label>Mật khẩu:</label><br>
-                            <input type="password" placeholder="Nhập mật khẩu" />
-                        </div>
-                        <div style="padding-left: 10px;">
-                            <input type="radio" id="male" name="gender" value="male">
-                            <label for="male">Sinh viên đang học</label><br>
-                            <input type="radio" id="female" name="gender" value="female">
-                            <label for="female">Sinh viên tốt nghiệp</label><br>
-                        </div>
-                        <div style="padding-left: 10px;">
-                            <label>Mã bảo vệ:</label>
-                            <input type="text" placeholder="Nhập mã bảo vệ"> <img src="images/MTIvMDgvMjAyMCAyMzozMzo0NQ==.gif" alt="">
-                            <img src="images/Refresh.gif" alt="">
-
-                        </div>
-                        <div style="padding-left: 10px;">
                             <br>
-                            <button type="Đăng nhập" class="btn btn-warning">Đăng nhập</button>
+                            <button type="submit" name="submit" class="btn btn-default"><a href="register.php">Đăng ký</a></button> 
+                            <button type="submit" name="submit" class="btn btn-default"><a href="login.php">Đăng nhập</a></button>
                         </div>
                     </div>
                 </div>

@@ -24,7 +24,7 @@
                     <div class="col-md-4 login-sec">
                         <h2 class="text-center">Login Now</h2>
                        
-                        <form class="login-form" method="POST" action="process.php">
+                        <form class="login-form" method="POST" action="process-login.php">
                             <div class="form-group">
                                 <label for="exampleInputEmail1" class="text-uppercase">Tên đăng nhập</label>
                                 <input type="text" class="form-control" name="username" placeholder="">
@@ -38,10 +38,31 @@
 
                             <div class="form-check">
                                 
-                                <button type="submit"  name="btnsubmit" class="btn btn-login float-right">Submit</button>
+                                <button type="submit"  name="btnsubmit" class="btn btn-primary">Submit</button>
                             </div>
 
                         </form>
+                        <?php
+                            require('config.php');
+                            if (isset($_POST['btnsubmit'])){
+                            $username = $_POST["username"];
+                            $password = $_POST["password"];
+                            $sql="SELECT * FROM user WHERE username='$username' and password='$password'";  
+                                                    
+                            $query = mysqli_query($conn,$sql);
+                                                    
+                            if ($row=mysqli_num_rows($query)> 0) {
+                            if($row == 1){
+                            echo "<div style='text-align:center;color:red;'>Đăng nhập thành công</div>";
+                            header('location:admin/admin.php');
+                            }
+                            }else{
+                                echo "<div style='text-align:center;color:red;'>Tài khoản không đúng</div>";
+                                header('location:login.php');
+                            }
+                        }
+                        ?>
+
                         
                     </div>
                     

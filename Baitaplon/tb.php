@@ -233,16 +233,9 @@
                     <form action="register_submit.php" method="POST">
                         <div class="healdy">
                             <div style="padding-left: 10px;">
-                                <label>Mã sinh viên:</label>
-                                <input type="text" name="username" placeholder="Nhập tên tài khoản"> <br> <br>
-                                <label>Mật khẩu:</label><br>
-                                <input type="password" placeholder="Nhập mật khẩu" name="password" /><br> <br>
-                                <label>Nhập lại mật khẩu</label><br>
-                                <input type="passsword" placeholder="Nhập lại mật khẩu" name="repassword">
-                            </div>
-                            <div style="padding-left: 10px;">
                                 <br>
-                                <input type="submit" name="submit" value =" Đăng nhập" class =" btn btn-primary">
+                                <button type="submit" name="submit" class="btn btn-default"><a href="register.php">Đăng ký</a></button> 
+                                <button type="submit" name="submit" class="btn btn-default"><a href="login.php">Đăng nhập</a></button>
                             </div>
                         </div>
                     </form>
